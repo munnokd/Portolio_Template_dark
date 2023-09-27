@@ -22,7 +22,7 @@ function App() {
         <SnackbarProvider>
           <Contacts />
         </SnackbarProvider>
-        <div className='border-b-2 my-[40px] ' ></div>
+        <div className='border-b-2 py-[40px] bg-[#171717] ' ></div>
         <BottomBar />
       </div>
     </div>

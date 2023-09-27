@@ -7,7 +7,7 @@ import Zoom from 'react-reveal/Zoom';
 
 const Technology = () => {
     return (
-        <div name='technology' className='h-[100%] flex flex-col items-center mb-[35px] '>
+        <div name='technology' className='h-[100%] flex flex-col items-center pb-[35px] bg-[#171717] text-white  '>
             <div className='md:w-[90%] lg:w-[80%] flex flex-col items-center'>
                 <h1 className='text-4xl sm:text-5xl font-bold mb-4 mt-[80px] md:mt-[120px]'>Technology</h1>
                 <hr className='border-t-[#fd7014] border-t-[3px] w-[140px] sm:w-[180px] mb-[50px]' />

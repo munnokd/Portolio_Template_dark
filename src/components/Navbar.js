@@ -43,7 +43,7 @@ export default function Navbar() {
                                     <Link
                                         to={item.href}
                                         className={classNames(
-                                            item.current ? 'bg-gray-900 text-white' : 'text-white hover:bg-gray-700 hover:text-white',
+                                            item.current ? 'bg-gray-900 text-[#fd7014]' : 'text-[#fd7014] hover:bg-gray-700 hover:text-[#fd7014]',
                                             'px-3 py-2 rounded-md text-sm font-medium cursor-pointer'
                                         )}
                                         smooth={true} duration={400}
@@ -65,7 +65,7 @@ export default function Navbar() {
                             to={item.href}
                             onClick={handleClick}
                             className={classNames(
-                                item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                item.current ? 'bg-gray-900 text-[#fd7014]' : 'text-[#fd7014] hover:bg-gray-700 hover:text-white',
                                 'px-3 py-4 rounded-md text-sm font-medium'
                             )}
                             smooth={true} duration={400}
