@@ -23,7 +23,7 @@ const Projects = () => {
         <div name='projects' className='h-[100%] flex flex-col items-center bg-[#171717] text-white '>
             <div className='md:w-[90%] lg:w-[70%] flex flex-col items-center'>
                 <h1 className='text-4xl sm:text-5xl font-bold mb-5 mt-[80px] md:mt-[120px]'>Projects</h1>
-                <hr className='border-t-[#fd7014] border-t-[3px] w-[110px] sm:w-[140px] mb-[50px]' />
+                <hr className='border-t-[#178bff] border-t-[3px] w-[110px] sm:w-[140px] mb-[50px]' />
                 <div className='mt-[10px] grid grid-cols-1 gap-y-5 md:grid-cols-2'>
                     <Slide left>
                         <div className='box_shadow rounded-[10px] mx-6 mb-[30px] p-[30px] cursor-pointer' onClick={() => setShowEcommerce(true)}>

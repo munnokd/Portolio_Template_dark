@@ -15,7 +15,7 @@ const Home = () => {
                     <Slide top>
                         <div className='flex mt-10'>
                             <a href='s' target='_blank' rel="noreferrer" className='font-[500] mr-3 w-[50%] bg-gray-800 text-white px-3 py-2 rounded-sm hover:cursor-pointer text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' >Resume</a>
-                            <a href='s' target='_blank' rel="noreferrer" className='font-[500] ml-3 w-[50%] bg-gray-800 text-white px-3 py-2 rounded-sm hover:cursor-pointer text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ' >Github</a>
+                            <a href='https://github.com/AKR-2803' target='_blank' rel="noreferrer" className='font-[500] ml-3 w-[50%] bg-gray-800 text-white px-3 py-2 rounded-sm hover:cursor-pointer text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ' >Github</a>
                         </div>
                     </Slide>
                 </div>
